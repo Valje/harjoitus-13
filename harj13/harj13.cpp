@@ -16,8 +16,8 @@ int main(void)
 	/*cin.get();
 	cin.get(sukun, 25);*/
 
-	strcat(etun, space); // Ensin space etunimen perään
-	strcat(etun, sukun); // Sitten sukunimi spacen perään
+	strcat_s(etun, space); // Ensin space etunimen perään
+	strcat_s(etun, sukun); // Sitten sukunimi spacen perään
 
 	cout << endl << "Nimesi on siis " << etun << "." << endl << endl; // Tulostetaan nimi
 
